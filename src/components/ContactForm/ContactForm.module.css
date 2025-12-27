@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+    border-radius: 8px;
+}
+
+.label {
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+.textarea{
+    border-radius: 8px;
+    height: 30px;
+    width: 300px;
+}
+
+button {
+  background-color: #8830e7;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  width: 120px;
+}
+
+button:hover {
+    background-color: #541e8e;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+}

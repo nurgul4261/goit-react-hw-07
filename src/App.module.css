@@ -1,0 +1,12 @@
+.title {
+    margin-top: 50px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 45px;
+}
+
+.app {
+    background-color: rgb(187, 184, 180);
+    width: 400px;
+    border-radius: 8px;
+}
