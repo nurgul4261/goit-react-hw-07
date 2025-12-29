@@ -53,3 +53,6 @@ export const selectFilteredContacts = createSelector(
 );
 
 export default contactsSlice.reducer;
+export { addContact } from './contactsOps';
+export { fetchContacts } from './contactsOps';
+export { deleteContact } from './contactsOps';

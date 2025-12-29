@@ -26,11 +26,11 @@ const ContactForm = () => {
         <label className={styles.label}>
           Name
           <Field className={styles.textarea} name="name" type="text" />
-          <ErrorMessage className={styles.error}name="name" component="div" />
+          <ErrorMessage className={styles.error} name="name" component="div" />
         </label>
         <label className={styles.label}>
           Number
-          <Field className={styles.textarea}name="number" type="tel" />
+          <Field className={styles.textarea} name="number" type="tel" />
           <ErrorMessage name="number" component="div" />
         </label>
         <button type="submit">Add Contact</button>
