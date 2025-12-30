@@ -18,7 +18,7 @@ const ContactForm = () => {
       initialValues={{ name: "", number: "" }}
       validationSchema={formSchema}
       onSubmit={(values, { resetForm }) => {
-        dispatch(addContact({ id: Date.now(), ...values }));
+        dispatch(addContact(values));
         resetForm();
       }}
     >
